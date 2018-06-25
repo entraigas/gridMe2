@@ -1,0 +1,1 @@
+export const CHANGE_PAYER_PROPS = 'CHANGE_PAYER_PROPS'
