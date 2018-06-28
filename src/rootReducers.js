@@ -11,7 +11,8 @@ const rootReducer = combineReducers({
 
 // end custom reducers
 
-const createStoreWithMiddleware = applyMiddleware(thunkMiddleware)(createStore)
+const createStoreWithMiddleware = applyMiddleware(thunkMiddleware)(createStore);
+
 export default function configureStore(initialState, persistedState) {
 	const store = createStoreWithMiddleware(
 		rootReducer,
